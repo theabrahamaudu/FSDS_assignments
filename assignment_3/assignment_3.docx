@@ -33,7 +33,7 @@ def modify_a():
     global a = 'another value'
 
 10.
-Nonetype
+NoneType
 
 11.
 It imports the module areallyourpetsnamederic into the current namespace so it's variables, functions and objects can be accessed

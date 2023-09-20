@@ -1,0 +1,55 @@
+1.
+A list is a mutable and iterable collection of values organised by a numeric index
+
+2.
+spam[2] = 'hello'
+
+3.
+'d'
+
+4.
+'d'
+
+5.
+['a','b]
+
+6.
+1
+
+7.
+it adds 99 to the left of the list at index 5
+
+8. 
+it removes 'cat' from the list and reassigns its index to the value to the left of cat
+
+9.
++ for concatenation
+* for replication
+
+10.
+append() takes the value to be added and adds it to the end of the list, while insert() adds the value
+to a specified position on the list
+
+11.
+remove() and pop()
+
+12.
+items in a list and characters in a string can be selected based on index values and passed through operations
+like concatenation, replication and a number of other similar operations.
+
+13.
+lists can be manipulated whilst tuples are immutable
+
+14.
+tuple([42])
+
+15.
+tuple(<list>) --> to get list as tuple
+list(<tuple>) --> to get tuple as list
+
+16.
+they contain references to the list values
+
+17.
+copy.copy() creates references to the original item(s) being copied, 
+whilst copy.deepcopy() creates actual copies of the items being copied.
