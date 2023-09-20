@@ -1,0 +1,51 @@
+1. 
+Functions are important to have in code because once written, they can be called multiple times elsewhere
+so you don't have to repeat yourself, and they also make it easier to test code.
+
+2.
+The code in a function runs when the function is called
+
+3.
+def <name of function>(<function parameters>):
+    <function code>
+
+4.
+function is the declared code, whilst function call is the execution of the previously defined function
+
+5.
+One global and one local
+
+6.
+the local variables in a function are destroyed once the fucntion call returns
+
+7.
+The return value is any value sent back to the calling script when the function is called. Yes, the return value of a function can be used in an expression.
+
+8.
+The function will return a default value None
+
+9.
+By using the expression 'global' before refering to the variable e.g.
+
+a = 'some value'
+
+def modify_a():
+    global a = 'another value'
+
+10.
+Nonetype
+
+11.
+It imports the module areallyourpetsnamederic into the current namespace so it's variables, functions and objects can be accessed
+
+12.
+spam.bacon()
+
+13.
+You can wrap the block of code with unstable behaviour in a try-except block such that if an error occurs, it raises a defined exception
+and proceeds with defined next steps.
+
+14.
+The try clause is used to attempt running code defined within it and catch any exceptions if the code runs into an error.
+The except clause can be used as a conditional which is activated if the code within the try-except block runs into an error,
+but more correctly, it is used to catch a defined set of exceptions in the code and then perfrom some defined action after raising said exception.

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox Grid</title>
+    <style>
+        .checkbox-grid {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr); /* Adjust the number of columns as needed */
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="checkbox-grid">
+        <!-- Use a JavaScript loop to generate checkboxes -->
+        <script>
+            for (let i = 1; i <= 268; i++) {
+                const checkbox = document.createElement("input");
+                checkbox.type = "checkbox";
+                checkbox.id = `assignment_${i}`;
+                checkbox.checked = localStorage.getItem(`assignment_${i}`) === "true"; // Check if it was previously checked
+                const label = document.createElement("label");
+                label.htmlFor = `assignment_${i}`;
+                label.textContent = `Assignment ${i}`;
+                checkbox.addEventListener("change", function () {
+                    localStorage.setItem(`assignment_${i}`, checkbox.checked); // Store the state in localStorage
+                });
+                document.querySelector(".checkbox-grid").appendChild(checkbox);
+                document.querySelector(".checkbox-grid").appendChild(label);
+            }
+        </script>
+    </div>
+</body>
+</html>
