@@ -1,0 +1,24 @@
+1.
+{}
+
+2.
+{'foo': 42}
+
+3.
+a list is ordered with an index, a map is ordered by key-value pairs (hashmap)
+
+4.
+the code will throw a key error
+
+5.
+They are equvalent expressions because dictionaries are traveresed using the keys by default
+
+6.
+the first expression checks for 'cat' in the dictionary keys, whilst the second expression checks
+for 'cat' in the dictionary values
+
+7.
+spam.setdefault('color', 'black')
+
+8.
+pprint module, with the pprint function
