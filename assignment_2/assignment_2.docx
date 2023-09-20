@@ -1,0 +1,100 @@
+1.
+The two values of Boolean data type are 0 and 1, written as True and false
+
+2.
+AND, OR and NOT
+
+3.
+
+1 AND 1 = 1
+0 AND 0 = 0
+1 AND 0 = 0
+0 AND 1 = 0
+
+1 OR 1 = 1
+0 OR 0 = 0
+1 OR 0 = 1
+0 OR 1 = 1
+
+NOT 1 = 0
+NOT 0 = 1
+
+4.
+a = False
+b = False
+c = True
+d = False
+e = False
+f = True
+
+5.
+== (equal to)
+> (greater than)
+< (less than)
+>= (greater than or equal to)
+<= (less than or equal to)
+!= (not equal to)
+
+6.
+
+Equality is denoted by double quality sign (==), whilst assignment is denoted by a single equality sign (=)
+
+'A is equal to B' can be written as 'A == B'
+Assigning A to B can be written as 'A=B'
+
+7.
+the first 'if' block::
+
+if spam == 10:
+    print('eggs')
+
+----------------------------------------
+
+second if block::
+
+if spam > 5:
+    print('bacon')
+
+---------------------------------------
+
+the else block::
+
+else:
+    print('ham')
+    print('spam')
+    print('spam')
+
+
+8.
+if spam == 1:
+    print('Hello')
+
+elif spam == 2:
+    print('Howdy)
+
+else:
+    print('Greetings!')
+
+9.
+Ctrl + c
+
+10.
+Break statment is used to stop the entire loop, whilst continue statment is used to stop the current iteration of the loop and skip to the next iteration
+
+11.
+All three statements are equivalent since the default start point and step size are 0 and 1. 
+The second statement explicitly defines the start point as 0 and the third statement goes further to specify the step size.
+
+12.
+for i in range(1,11):
+    print(i)
+
+i = 1
+while i <= 10:
+    print(i)
+    i+=1
+
+13.
+spam.bacon()
+
+
