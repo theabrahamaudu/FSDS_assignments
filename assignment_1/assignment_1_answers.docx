@@ -1,0 +1,43 @@
+1. 
+
+* = operator
+'hello' = string
+-87.8 = float
+- = operator
+/ = operator
++ = operator
+6 = integer
+
+2. A string is a text object whilst a variable is an identifier used to store an object in the namespace
+
+3.
+
+String data type is used to hold text objects
+Integer data type is used to hold numerical values without decimal points (e.g. 2, 6, 98)
+Boolean data type is used to hold true or false values
+
+4.
+An expression is made up of words or symbols (e.g. name, +, =, 3). Expressions can be assigned or used as operands.
+
+5. 
+An expression simply holds a value, whilst a statment can be executed to create side effect based on a relationship between Expressions
+
+6.
+bacon will be 23
+
+7.
+They will be eqivalent as 'spamspamspam'
+
+8.
+Because a varible name cannot start with a number, although it can contain a number.
+
+9.
+int(value)
+float(value)
+str(value)
+
+10.
+It throws an error because different data types cannot be directly concatenated.
+To fix it, the numerical value must first be converted to string data type, for example:
+
+'I have eaten ' + str(99) + ' burritos.'
