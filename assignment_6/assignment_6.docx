@@ -1,0 +1,38 @@
+1.
+escape characters are used to insert special characters or control(formating) characters in a
+string without causing syntax errors. they are placed just before the character to be skipped.
+
+2.
+n, used as \n stands for moving to a new line
+t, used as \t stands for tab spacing the string
+
+3.
+\\
+
+4.
+Because the string itself is enclosed by double quotes, so it is not conflicting with the syntax
+
+5. 
+By using triple quotes --> """<string>"""
+
+6.
+a. 'e'
+b. 'Hello'
+c. 'Hello'
+d. 'lo, world!'
+
+7.
+a. 'HELLO'
+b. True
+c. 'hello'
+
+8.
+a. ['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']
+b. There-can-be-only-one.
+
+9.
+a. rjust()
+b. ljust()
+c. center()
+
+10. strip() method
